@@ -1,4 +1,4 @@
-# StudyAI — Profile Wizard
+Profile Wizard
 
 A multi-step React application that builds and scores a student university application profile.
 
