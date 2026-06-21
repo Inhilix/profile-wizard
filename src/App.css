@@ -1,0 +1,35 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --color-primary:      #5B4FE8;
+  --color-primary-dark: #4338CA;
+  --color-primary-light:#EEF2FF;
+  --color-success:      #22C55E;
+  --color-warning:      #F59E0B;
+  --color-danger:       #EF4444;
+  --color-bg:           #09090F;
+  --color-bg-card:      #111120;
+  --color-bg-section:   #0D0D1A;
+  --color-text:         #F1F0FF;
+  --color-text-muted:   #8B8BAE;
+  --color-border:       #1E1E3A;
+  --font-display:       'Syne', sans-serif;
+  --font-body:          'Inter', system-ui, sans-serif;
+  --radius-sm:  6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+  --shadow-card: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+html { font-size: 16px; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
